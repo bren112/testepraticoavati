@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login Avati</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Sistema Avati</h1>
+    </header>
+    <h2 style="text-align: center;">TESTE PRÁTICO <span>AVATI</span></h2>
+    <div class="container">
+        
+        <div class="message-box">
+          
+            <br>
+            <img src="img.png" alt="" srcset="">
+
+        </div>
+        <div class="login-box">
+            <h1>Faça seu Login!</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="userType">Escolha o tipo de usuário:</label>
+                    <select id="userType">
+                        <option value="email">E-mail</option>
+                        <option value="username">Nome de usuário</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="userInput">Nome de usuário (ou e-mail):</label>
+                    <input type="text" id="userInput" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit">Entrar</button>
+                <br>
+                <div id="message" class="message"></div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Avati. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
